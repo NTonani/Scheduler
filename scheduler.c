@@ -36,7 +36,7 @@ int main(){
 	}
 	fclose(file);
 	do{
-		printf("Please choose the algorithm you'd like the scheudler to use:\n1.)Priority-based Non-Preemptive Scheduling\n2.)Shortest-Job-First Non-Preemptive Scheduling\n");
+		printf("Please choose the algorithm you'd like the scheduler to use:\n1.)Priority-based Non-Preemptive Scheduling\n2.)Shortest-Job-First Non-Preemptive Scheduling\n");
 		scanf("%d",&algChoice);
 		
 		if(algChoice!=1 && algChoice!=2){
